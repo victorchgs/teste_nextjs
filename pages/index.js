@@ -53,12 +53,12 @@ export default function Home() {
             <p>{infoList.email}</p>
           </div>
 
-          <a href={`https://twitter.com/${infoList.twitter_username}`} className={styles.card}>
+          <a href={`https://twitter.com/${infoList.twitter_username}`} target={'_blank'} className={styles.card}>
               <h2>Usuário no Twitter:</h2>
               <p>{infoList.twitter_username}</p>
           </a>
 
-          <a href={`https://github.com/${user}`} className={styles.card}>
+          <a href={`https://github.com/${user}`} target={'_blank'} className={styles.card}>
               <h2>Acesso ao GitHub:</h2>
               <p>{infoList.html_url}</p>
           </a>
